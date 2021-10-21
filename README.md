@@ -1,7 +1,9 @@
 # Curl2Scrapy
 
 ## Overview
-Obviously, this library shares a name with an existing library and online tool, https://github.com/michael-shub/curl2scrapy. Whereas that project is written in Javascript, this is a native Python library which I am not planning to turn into an online widget any time soon. To be clear, it has no code influence from this other library. It is useful because of its ability to be easily integrated with other Scrapy tools, for example, my other Scrapy library, htttps://github.com/ThomasAitken/Scrapy-Testmaster. 
-
-## Usage
-There is only one command "curl2scrapy" and it accepts one command line argument, a cURL request enclosed in double quotes.
+Obviously, this library has a similar name to an existing library and online
+tool, https://github.com/michael-shub/curl2scrapy. My code has some influence from this other
+library. There are two differences: this tool better handles complex Form/JSON
+requests, and it has a second option for converting cURL commands to a format
+that may be executed using the "testmaster parse" command of my other Scrapy library,
+htttps://github.com/ThomasAitken/Scrapy-Testmaster. 
