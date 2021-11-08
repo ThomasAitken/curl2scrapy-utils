@@ -3660,7 +3660,6 @@ const ArgumentParser = _camelcase_alias(_callable(class ArgumentParser extends _
     }
 }))
 
-
 module.exports = {
     ArgumentParser,
     ArgumentError,

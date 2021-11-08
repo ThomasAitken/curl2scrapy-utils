@@ -25,21 +25,20 @@
                     <textarea id="curl" class="form-control" rows="25" placeholder="Insert cURL code here..."></textarea>
                 </div>
             </div>
-            <div class="col-5">
+            <div id="scrapy-col" class="col-5">
+                <a class="hide-me" id="hide-scrapy" href="#">hide me</a>
+                <a class="copy-me" id="copy-scrapy" href="#">copy to clipboard</a>
                 <div id="form2" class="form-group">
                     <label for="scrapy">Scrapy code:</label>
-                    <label hidden="" for="parse">Testmaster parse command:</label>
                     <textarea id="scrapy" class="form-control" rows="25" placeholder="Here's going to appear scrapy code."></textarea>
-                    <textarea hidden="" id="parse" class="form-control" rows="25" placeholder="Here's going to appear the Testmaster parse command."></textarea>
                 </div>
             </div>
-            <div class="col-1">
-                <div class="form-group" style="margin-top: 500%;">
-                    <!-- <label for="format">Format</label> -->
-                    <select id="format">
-                        <option id="scrapy-code" value="scrapy">Scrapy code</option>
-                        <option id="testmaster-parse" value="parse">Testmaster parse</option>
-                    </select>
+            <div id="parse-col" class="col-5">
+                <a class="hide-me" id="hide-parse" href="#">hide me</a>
+                <a class="copy-me" id="copy-parse" href="#">copy to clipboard</a>
+                <div id="form3" class="form-group">
+                    <label for="parse">Testmaster parse command:</label>
+                    <textarea id="parse" class="form-control" rows="25" placeholder="Here's going to appear the Testmaster parse command."></textarea>
                 </div>
             </div>
         </div>
@@ -49,5 +48,5 @@
     </div>
 </body>
     <script type="text/javascript" src="argparse_bundle.js"></script>
-    <script type="text/javascript" src="curl2scrapy.js"></script>
+    <script type="text/javascript" src="main.js"></script>
 </html>

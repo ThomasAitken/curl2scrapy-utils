@@ -1,0 +1,17 @@
+{
+    "name": "curl2scrapy-utils",
+    "version": "0.0.1",
+    "main": "",
+    "scripts": {},
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "argparse": "^2.0.1",
+        "mocha": "^9.1.3",
+        "shlex": "^2.1.0"
+    },
+    "devDependencies": {},
+    "description": "These are the dependencies for testing in a Node (non-browser) context",
+    "type": "module"
+}
