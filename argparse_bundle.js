@@ -8055,3 +8055,5 @@ module.exports = function whichTypedArray(value) {
 
 }).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 },{"available-typed-arrays":9,"call-bind/callBound":10,"es-abstract/helpers/getOwnPropertyDescriptor":12,"foreach":13,"has-tostringtag/shams":19,"is-typed-array":24}]},{},[1]);
+
+window.require = require;
