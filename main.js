@@ -1,3 +1,5 @@
+window.jQuery = require('jquery');
+window.$ = global.jQuery;
 const curlField = $('#curl');
 const scrapyField = $('#scrapy');
 const parseField = $('#parse');
