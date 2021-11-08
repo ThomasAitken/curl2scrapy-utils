@@ -6,7 +6,7 @@ const hideBtn = $('.hide-me');
 const copyBtn = $('.copy-me');
 
 const { ArgumentParser } = require("argparse");
-const curlParser = new argparse.ArgumentParser({
+const curlParser = new ArgumentParser({
     description: 'Basic arg parser for curl command'
 });
 curlParser.add_argument('command')
