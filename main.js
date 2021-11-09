@@ -1,5 +1,3 @@
-window.jQuery = require('jquery');
-window.$ = global.jQuery;
 const curlField = $('#curl');
 const scrapyField = $('#scrapy');
 const parseField = $('#parse');
@@ -7,7 +5,6 @@ const btn = $('#btn');
 const hideBtn = $('.hide-me');
 const copyBtn = $('.copy-me');
 
-const { ArgumentParser } = require("argparse");
 const curlParser = new ArgumentParser({
     description: 'Basic arg parser for curl command'
 });
